@@ -11,7 +11,7 @@ answerTextElm.textContent = userAnswer;
 
 const answerElm = document.querySelector('.answer');
 
-if (userAnswer.toLowerCase() === 'Bell') {
+if (userAnswer === 'Bell') {
   answerElm.classList.add('answer--correct');
 } else {
   answerElm.classList.add('answer--wrong');
